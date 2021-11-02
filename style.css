@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'BatonTurboBold';
+    src: url('fonts/BatonTurboBold.otf');
+}
+@font-face {
+    font-family: 'BatonTurboRegular';
+    src: url('fonts/BatonTurboRegular.otf');
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.main_close{
+    position: absolute;
+    margin-left: 101px;
+    cursor: pointer;
+}
+.main_text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main_text ul{
+    padding-left: 0;
+}
+.main_text li{
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+.main_text a{
+    text-decoration: none;
+    font-family: 'BatonTurboBold', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #474747;
+}
+.main_underline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.main_personal{
+    font-family: 'BatonTurboRegular', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: #757578;
+    padding-bottom: 10px;
+}
+.main_registration{
+    max-width: 294px;
+    background: #DA291C;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 100px;
+    border: none;
+    margin-bottom: 30px;
+}
+.main_registration a{
+    text-decoration: none;
+    font-family: 'BatonTurboBold', sans-serif;
+    font-size: 14px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding: 0;
+}
+.main_link-flex{
+    display: flex;
+}
+.main_link-flex a{
+    background:#DA291C;
+    border-radius: 100px;
+    width: 42;
+    height: 42;
+    margin-right: 17px;
+}
+.main_link-flex a:last-child{
+    margin-right: 0;
+}
+.main_vk{
+    padding: 15px 11px 12px 8px;
+}
+.main_insta{
+    padding: 11px 13px;
+}
+.main_youtube{
+    padding: 13px 8px 11px 10px;
+}
